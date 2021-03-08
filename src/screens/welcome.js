@@ -12,10 +12,6 @@ export default function Welcome({ navigation }) {
         }}
       >
         <Text style={styles.line2}>Welcome</Text>
-        <Button
-        title="Go to Settings"
-        onPress={() => navigation.navigate('Settings')}
-      />
       </View>
     </SafeAreaView>
   );

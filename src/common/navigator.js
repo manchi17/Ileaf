@@ -20,8 +20,8 @@ export default function BottomNavigator() {
               iconName = focused
                 ? "ios-information-circle"
                 : "ios-information-circle-outline";
-            } else if (route.name === "Search") {
-              iconName = "search";
+            } else if (route.name === "Dashboard") {
+              iconName = "logo-ionic";
             }
             return <Ionicons name={iconName} size={size} color={COLORS.blue} />;
           },
